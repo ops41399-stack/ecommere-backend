@@ -1,0 +1,13 @@
+{
+  "name": "ecommerce-backend-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm --prefix ./ecommerce-backend run start",
+    "dev": "npm --prefix ./ecommerce-backend run dev",
+    "seed": "npm --prefix ./ecommerce-backend run seed"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3"
+  }
+}
